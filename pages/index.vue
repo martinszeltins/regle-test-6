@@ -20,8 +20,8 @@
             <!-- Shipment Items -->
             <h3 class="font-semibold my-4">Shipment Items</h3>
 
-            <div v-for="(_, index) in form.shipmentItems" class="border border-dashed border-gray-300 p-4 rounded-lg mt-4">
-                <h3 class="font-semibold uppercase text-xs text-gray-700 mb-3">
+            <div v-for="(_, index) in form.shipmentItems" class="border-2 border-dashed border-blue-300 p-4 rounded-lg mt-8">
+                <h3 class="font-semibold uppercase text-base text-gray-700 mb-3">
                     Item {{ index + 1 }}
                 </h3>
 
